@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/id_city"
+        android:textColor="#000"
+        android:hint="City"
+        android:background="@drawable/bg_input"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/id_state"
+        android:layout_below="@+id/id_city"
+        android:textColor="#000"
+        android:hint="State"
+        android:background="@drawable/bg_input"
+        android:layout_marginTop="10dp"></EditText>
+    <Button
+        android:id="@+id/id_submit"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:text="save change"
+        android:background="#488aff"
+        android:layout_below="@+id/id_state"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp"></Button>
+</RelativeLayout>
